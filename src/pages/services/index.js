@@ -1,6 +1,4 @@
 import Link from "next/link";
-import styles from "../../styles/services-webdev.module.css";
-import { FaReact, FaSearch, FaUserTie } from "react-icons/fa";
 
 export default function Services() {
   return (
