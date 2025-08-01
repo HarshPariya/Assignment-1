@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from './services.module.css'; 
-
+import { FaReact, FaSearch, FaUserTie } from "react-icons/fa";
+ 
 export default function Services() {
   return (
     <div className={styles["page-container"]}>
