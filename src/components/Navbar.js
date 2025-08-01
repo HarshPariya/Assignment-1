@@ -13,12 +13,10 @@ const Navbar = () => {
       <div className={styles['navbar-container']}>
         <Link href="/" className={styles.logo}>Assignment-1</Link>
 
-        {/* Menu */}
         <div className={`${styles.menu} ${isMobile ? styles.active : ''}`}>
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
 
-          {/* Submenu */}
           <div
             className={styles.submenu}
             onMouseEnter={() => setShowServices(true)}
@@ -37,7 +35,6 @@ const Navbar = () => {
           <Link href="/contact">Contact</Link>
         </div>
 
-        {/* Theme Toggle & Hamburger */}
         <div className={styles['nav-actions']}>
           <button className={styles['theme-toggle']} onClick={toggleTheme}>
             Toggle Theme
